@@ -1,0 +1,24 @@
+.class-element {
+  position: relative;
+}
+.option {
+  position: absolute;
+  right: 100%;
+  display: none !important;
+  width: 100px;
+}
+.option h5 {
+  color: white !important;
+}
+.option-item {
+  background: gray;
+}
+.option-item:hover {
+  background: rgb(170, 170, 170);
+}
+.active {
+  background: rgb(170, 170, 170);
+}
+.work-space .class-element:hover .option {
+  display: flex !important;
+}

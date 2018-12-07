@@ -1,0 +1,13 @@
+.class-block {
+  min-width: 10px;
+  min-height: 10px;
+  background: #7895f8;
+}
+
+.class-block-item {
+  flex: 1 0 0;
+}
+.divider {
+  height: 2px;
+  background: yellow;
+}
